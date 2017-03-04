@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class SolutionNode {
 	
+	//inserting the nodes
 	public static Node insert(Node head, int data){
 	//	LinkedList<Node> myLinkedList = new LinkedList<Node>();
 	//	myLinkedList.add(Node(data));
@@ -19,7 +20,7 @@ public class SolutionNode {
 		}
 		return head;
 	}
-	
+	//printing the linked list
 	public static void display (Node head){
 		Node start = head;
 		while(start != null){
@@ -27,7 +28,7 @@ public class SolutionNode {
 			start = start.next;
 		}
 	}
-	
+	// adding the inputs to the linked list
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		Node head = null;
